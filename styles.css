@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=IBM+Plex+Sans+Thai+Looped:wght@200;300;400;500;600&display=swap');
+
+*{
+    font-family: 'Hubballi', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+}
+
+body{
+    background-image: linear-gradient(to bottom, #00b1ff, #70aef7, #98adec, #b1ade0, #bfafd3);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    color: #1A312E;
+    margin-bottom: 25px;
+    font-size: 60px;
+}
+
+.options{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 0px;
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.icon{
+    width: 80px;
+    opacity: .8;
+    cursor: pointer;
+    transition: .3s;
+}
+.icon:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+input{
+    margin: 10px 0;
+    -webkit-appearance: none;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    border: solid 2px #3A4856;
+    margin-right: 6px;
+    top: 4px;
+    transition: .3s linear;
+}
+input:checked{
+    border: solid 7px #002C69;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+button{
+    color: #9EADBD;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #002C69;
+    width: 130px;
+    height: 70px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: .3s linear;
+}
+button:hover{
+    transform: scale(1.1);
+}
